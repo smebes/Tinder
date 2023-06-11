@@ -1,0 +1,33 @@
+name: tinder
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+
+dependencies:
+  bubble: ^1.2.1
+  carousel_slider: ^4.2.1
+  cupertino_icons: ^1.0.5
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.7.0
+  flutter_tindercard: ^0.2.0
+  font_awesome_flutter: ^10.4.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Tinder_clone
+      fonts:
+        - asset: assets/fonts/Tinder_clone.ttf
